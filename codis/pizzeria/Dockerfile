@@ -5,7 +5,7 @@ FROM php:8.3-apache
 WORKDIR /var/www/html
 
 # Copia el directori app dins del directori de treball per defecte
-COPY pizzeria/app/ .
+COPY app/ .
 
 # Exposa el port 80/tcp del contenidor
 EXPOSE 80
